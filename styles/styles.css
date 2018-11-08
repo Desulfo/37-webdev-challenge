@@ -3,5 +3,10 @@
  * BLOCK .block
  * ELEMENT .block__element
  * MODIFIRE .block__element--modifire */
+/*GLOABL********************************************** */
+@import url(normalize.css);
+/*BLOCK*********************************************** */
+/*ELEMENT********************************************* */
+/*MODIFIRE******************************************** */
 
 /*# sourceMappingURL=styles.css.map */
