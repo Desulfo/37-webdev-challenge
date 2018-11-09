@@ -5,12 +5,15 @@
  * MODIFIRE .block__element--modifire */
 /*GLOABL********************************************** */
 @import url(normalize.css);
-@import url("https://fonts.googleapis.com/css?family=Lato|Heebo:800");
+@import url("https://fonts.googleapis.com/css?family=Lato|Heebo:800|Work+Sans:900");
+* {
+  margin: 0; }
+
 body > * {
   padding: 0 15px; }
 
 header {
-  height: 100vh;
+  min-height: 100vh;
   background: #a22833 url("../img/Header/Background.png") no-repeat center;
   background-size: cover; }
 
@@ -37,6 +40,10 @@ li {
   font-weight: bold;
   margin-left: 27px; }
 
+a {
+  text-decoration: none;
+  color: inherit; }
+
 i {
   color: #ffffff; }
 
@@ -52,7 +59,7 @@ hgroup {
 
 h1 {
   text-transform: uppercase;
-  font-size: 184px;
+  font-size: 12em;
   font-weight: bolder;
   font-family: "Heebo", sans-serif;
   margin: 0; }
@@ -69,6 +76,20 @@ button {
   font-family: "Lato", sans-serif;
   background: #ffffff; }
 
+h2 {
+  padding-top: 97px;
+  color: #494949;
+  font-weight: bolder;
+  font-size: 4em;
+  font-family: "Work Sans", sans-serif; }
+
+img {
+  float: right; }
+
+p {
+  color: #6a6a6a;
+  font-size: 1.2em; }
+
 /*BLOCK*********************************************** */
 .container {
   position: relative;
@@ -77,6 +98,7 @@ button {
   margin: 0 auto; }
 
 .logo {
+  color: #ffffff;
   font-weight: bold;
   font-size: 1.5731891667em;
   margin: 0; }
@@ -92,6 +114,9 @@ button {
   z-index: 1;
   margin-top: -200px; }
 
+.about {
+  min-height: 576px; }
+
 /*ELEMENT********************************************* */
 .slogan__txt {
   height: 128px;
@@ -101,11 +126,28 @@ button {
   color: #ffffff;
   opacity: 0.7; }
 
+.about_txt {
+  max-width: 471px;
+  margin-top: 76px;
+  line-height: 1.4em; }
+
+.about__img {
+  position: absolute;
+  top: 103px;
+  left: 500px; }
+
 /*MODIFIRE******************************************** */
 .container--nav {
   max-width: 1442px; }
 
 .slogan--small {
   font-size: 120px; }
+
+.about_button {
+  margin-top: 76px; }
+
+.button--red {
+  background-color: #bc2e3a;
+  color: #ffffff; }
 
 /*# sourceMappingURL=styles.css.map */
