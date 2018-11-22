@@ -10,37 +10,39 @@
 </head>
 <body>
     <header id="home">
-        <div class="container container--nav">
-            <nav>
-                <p class="logo">Agency</p>
-                <ul>
-                    <li><a href="#home">home</a></li>
-                    <li><a href="#about">about us</a></li>
-                    <li><a href="#team">team</a></li>
-                    <li><a href="#services">services</a></li>
-                    <li><a href="#process">process</a></li>
-                    <li><a href="#clients">clients</a></li>
-                    <li><a href="#work">work</a></li>
+        <div class="home__wrapper">
+            <div class="container container--nav">
+                <nav>
+                    <p class="logo">Agency</p>
                     <ul>
-                        <li><a href="#"><i class="fas fa-search"></i></a></li>
-                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                    </ul>
-                </ul>  
-            </nav>
-            <hgroup class="slogan">
-                <h1 class="slogan__txt">Think</h1>
-                <h1 class="slogan__txt">outside</h1>
-                <h1 class="slogan__txt slogan__text--small">of the box</h1>
-                <button class="more slogan__button"><a href="#">read more</a></button>
-            </hgroup>
+                        <li><a href="#home">home</a></li>
+                        <li><a href="#about">about us</a></li>
+                        <li><a href="#team">team</a></li>
+                        <li><a href="#services">services</a></li>
+                        <li><a href="#process">process</a></li>
+                        <li><a href="#clients">clients</a></li>
+                        <li><a href="#work">work</a></li>
+                        <ul>
+                            <li><a href="#"><i class="fas fa-search"></i></a></li>
+                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                        </ul>
+                    </ul>  
+                </nav>
+                <hgroup class="slogan">
+                    <h1 class="slogan__txt">Think</h1>
+                    <h1 class="slogan__txt">outside</h1>
+                    <h1 class="slogan__txt slogan__text--small">of the box</h1>
+                    <button class="more slogan__button"><a href="#">read more</a></button>
+                </hgroup>
+            </div>
         </div>
     </header>
     <article class="about" id="about">
         <div class="container">
             <section>
                 <h2 class="title">Who we are</h2>
-                <p class="txt about_txt">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. </p>
-                <button class="about_button more more--red"><a href="#">read more</a></button>
+                <p class="txt about__txt">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. </p>
+                <button class="about__button more more--red"><a href="#">read more</a></button>
             </section>
             <img class="about__img" src="img/Who we are/Macbook pro.png" alt="">
         </div>
@@ -93,31 +95,39 @@
                 </section>
         </div>
     </article>
-<!--    <article>
-        <div class="container">
-            <h2>How we works</h2>   
-            <section>
-                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
-                <button>read more</button>
-            </section>
-            <section>
-                <h3>1.</h3>
-                <h3>idea</h3>
-                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem.</p>
-            </section>
-            <section>
-                <h3>2.</h3>
-                <h3>design</h3>
-                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem.</p>
-            </section>
-            <section>
-                <h3>3.</h3>
-                <h3>output</h3>
-                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem.</p>
-            </section>
+    <article id="process" class="process">
+        <div class="container process__container">
+            <h2 class="title">How we works</h2>  
+            <div class="process_wrap"> 
+                <section class="process__wrapper">
+                    <p class="txt process__txt">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
+                    <button class="more more--red">read more</button>
+                </section>
+                <section class="process__wrapper process__wrapper--slant">
+                    <div class="process__wrapper__idea process__wrapper--streight">
+                        <h3 class="process__title process__title--top">1.</h3>
+                        <h3 class="process__title process__title--left">idea</h3>
+                        <p class="process__description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem.</p>
+                    </div>
+                </section>
+                <section class="process__wrapper process__wrapper--slant">
+                    <div class="process__wrapper--streight process__wrapper__design">
+                        <h3 class="process__title process__title--top">2.</h3>
+                        <h3 class="process__title process__title--left">design</h3>
+                        <p class="process__description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem.</p>
+                    </div>
+                </section>
+                <section class="process__wrapper process__wrapper--slant">
+                    <div class="process__wrapper--streight process__wrapper__output">
+                        <h3 class="process__title process__title--top">3.</h3>
+                        <h3 class="process__title process__title--left">output</h3>
+                        <p class="process__description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem.</p>
+                    </div>
+                </section>
+            </div>
         </div>
     </article>
-    <section>
+<!--    <section>
         <div class="container">
             <section>
                 <figure>
