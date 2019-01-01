@@ -16,8 +16,6 @@ header
     background: rgba(163,41,52,1) url("../img/Header/Background.png") no-repeat center
     background-size: cover
     padding: 0
-section
-    float: left
 nav
     display: flex
     justify-content: space-between
@@ -35,8 +33,6 @@ li
     font-size: 0.7923100000000001em
     font-weight: bold
     margin-left: 27px
-.team
-    background-color: #f5f5f5
 /*TEXT MARKESRS*********************************************/
 h1
     text-transform: uppercase
@@ -107,6 +103,10 @@ i
     line-height: 1.4em
 .process
     height: 730px
+.team
+    padding-top: 105px
+    display: flex
+    background-color: #f5f5f5
 
 /*ELEMENT**********************************************/ 
 .home__wrapper
@@ -156,8 +156,6 @@ i
 .services__txt
     color: #6f6f6e  
     margin-left: 90px
-.process__container
-    margin: 0
 .process_wrap
     display: flex
     flex-flow: row nowrap
@@ -198,13 +196,19 @@ i
     width: 37%
     margin-left: -7em
     -webkit-transition: margin .5s
+.team__worker
+    float: left
+    display: flex
+    flex-flow: column nowrap
+    justify-content: center
+    align-items: center
+    margin-right: 50px
 .team__imgwrap
-    background: #ffffff
+    border: 15px solid #ffffff
     -ms-transform: rotate(-45deg)
     -webkit-transform: rotate(-45deg)
     transform: rotate(-45deg)
     overflow: hidden
-    padding: 15px
     height: 200px
     width: 200px
     margin: 25px
@@ -214,6 +218,24 @@ i
     transform: rotate(45deg)
     height: 150%
     margin: -50px
+.team__txtwrap 
+    margin-top: -30px
+    width: 230px
+    background-color: #252525
+    -ms-transform: skewX(45deg)
+    -webkit-transform: skewX(45deg)
+    transform: skewX(45deg)
+.team__txt
+    padding: 10px
+    font-family: 'Lato', sans-serif
+    font-weight: bold
+    font-size: 1.5em
+    text-align: center
+    color: #ffffff
+    -ms-transform: skewX(-45deg)
+    -webkit-transform: skewX(-45deg)
+    transform: skewX(-45deg)
+
     
 /*MODIFIRE*********************************************/
 .container--nav
@@ -245,3 +267,12 @@ i
         -webkit-transition: margin .5s
         margin-top: 3.2em
         margin-left: 1.4em
+.team__txtwrap--red
+    margin-left: 30px
+    margin-top: -5px
+    background: #bc2e3a
+    width: 140px
+.team__txt--red
+    padding: 5px
+    font-weight: normal
+    font-size: 1em
